@@ -12,6 +12,7 @@ function App() {
 
   function search(e) {
     if (e.key === 'Enter') {
+      if(query === '') return
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
         .then(res => res.json())
         .then(result => {
@@ -19,7 +20,8 @@ function App() {
           
           setWeather(result)
           setQuery('')
-        });
+        })
+        .catch(e => console.log('Error'))
     }
   }
 
