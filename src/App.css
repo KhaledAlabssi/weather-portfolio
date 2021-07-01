@@ -1,10 +1,7 @@
 .App {
   text-align: center;
   height: 100vh;
-  
-  
-
-  background-image: url('./assets/sunny.svg');
+  background-image: url('./assets/sunny.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +11,7 @@
 }
 
 .App.snow {
-  background-image: url('./assets/snow.svg');
+  background-image: url('./assets/snow.jpg');
 }
 
 main {
