@@ -14,14 +14,21 @@ function App() {
     if (e.key === 'Enter') {
       if(query === '') return
       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) {
+            
+            throw new Error(res.statusText)
+          }
+          return res.json()
+        })
         .then(result => {
-          console.log('hi')
           
           setWeather(result)
           setQuery('')
         })
-        .catch(e => console.log('Error'))
+        .catch(() => {
+          setQuery('')
+          alert('Invalid input...')})
     }
   }
 
