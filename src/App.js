@@ -26,9 +26,9 @@ function App() {
           setWeather(result)
           setQuery('')
         })
-        .catch(() => {
+        .catch(e => {
           setQuery('')
-          alert('Invalid input...')})
+          alert(e)})
     }
   }
 

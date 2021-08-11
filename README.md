@@ -1,3 +1,20 @@
+# Weather App
+
+Simple app that shows you the temparature of any given city using openweathermap API
+
+App link: (https://ka-weather.netlify.app/)
+
+
+![Screen Shot 2021-08-11 at 8 06 14 AM](https://user-images.githubusercontent.com/26570366/128978489-b2f92530-586e-4941-a7e6-acd89022cd49.png)
+
+![Screen Shot 2021-08-11 at 8 05 42 AM](https://user-images.githubusercontent.com/26570366/128978669-24a01a01-b7bb-40b0-8940-5e6197ee508e.png)
+
+## Tech:
+- React
+- Openweathermap API
+- Background from unsplash
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

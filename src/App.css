@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-image: url('./assets/sunny.jpg');
+  background-image: url('https://images.unsplash.com/photo-1514810771018-276192729582?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1800&q=80');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,7 +11,7 @@
 }
 
 .App.snow {
-  background-image: url('./assets/snow.jpg');
+  background-image: url('https://images.unsplash.com/photo-1477468572316-36979010099d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2200&q=80');
 }
 
 main {
